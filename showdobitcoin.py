@@ -80,7 +80,7 @@ def embaralhar_alternativas(pergunta):
 # O jogo embaralha as alternativas para que caso o jogador queira jogar novamente as alternativas não apareçam no mesmo lugar
 
 def exibir_pergunta(pergunta, valor):
-    global pulos_restantes, premio_total
+    global pulos_restantes, premio_total, pulos_usados
 # Variáveis estão em global para serem acessadas e modificadas dentro da função
 
     enunciado = html.unescape(unquote(pergunta["question"]))
@@ -97,9 +97,10 @@ def exibir_pergunta(pergunta, valor):
     for i, alt in enumerate(alternativas, 1):
         print(f"  {i}. {alt}")
         # Enumera as alternativas para que facilite a resposta
-    print(f" Se você desistir agora, levará {round(premio_total * 0.5, 2)} BTC.")
+    print(f"\n Se você desistir agora, levará {round(premio_total * 0.5, 2)} BTC.")
+    print(f" Se você errar, levará apenas {round(premio_total * 0.1, 2)} BTC.")
     while True:
-        resposta = input("Sua resposta (1-4, P=pular, D=desistir): ").lower()
+        resposta = input("\n Sua resposta (1-4, P=pular, D=desistir): ").lower()
         # O lower é utilizado para que não corra quebra de código caso o jogador digite maiúsculo
 
         if resposta == 'p':
@@ -124,6 +125,7 @@ def exibir_pergunta(pergunta, valor):
             # É diminuido 1 da resposta, pois a contagem inicia no 0
             else:
                 print(" Resposta errada!")
+                print(f" A resposta correta era: {correta_idx + 1}")
                 print(f" Você leva apenas {round(premio_total * 0.1, 2)} BTC.")
                 exit()
                 # Caso o jogador erre a resposta é mostrado seu prêmio final conforme as regras
