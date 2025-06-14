@@ -97,7 +97,7 @@ def exibir_pergunta(pergunta, valor):
     for i, alt in enumerate(alternativas, 1):
         print(f"  {i}. {alt}")
         # Enumera as alternativas para que facilite a resposta
-
+    print(f" Se você desistir agora, levará {round(premio_total * 0.5, 2)} BTC.")
     while True:
         resposta = input("Sua resposta (1-4, P=pular, D=desistir): ").lower()
         # O lower é utilizado para que não corra quebra de código caso o jogador digite maiúsculo
