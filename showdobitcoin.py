@@ -199,9 +199,9 @@ def jogar():
     # Chama a função para que funcione offline
 
     fases = [
-        (" Perguntas fáceis", 'easy', [0.1, 0.2, 0.3]),
-        (" Perguntas médias", 'medium', [0.4, 0.5, 0.6]),
-        (" Perguntas difíceis", 'hard', [0.7, 0.8, 0.9, 1.0])
+        (" Perguntas fáceis", 'easy', [0.1, 0.1, 0.1]),
+        (" Perguntas médias", 'medium', [0.1, 0.1, 0.1]),
+        (" Perguntas difíceis", 'hard', [0.1, 0.1, 0.1, 0.1])
     ]
     # Lista para que as perguntas apareçam na ordem correta
 
