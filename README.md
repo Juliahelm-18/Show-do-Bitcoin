@@ -1,4 +1,4 @@
-# ou Show do Milhão em Python
+# Show do Milhão em Python
 
 Um jogo de perguntas e respostas inspirado no **Show do Milhão**, desenvolvido em **Python**!  
 O jogador deve responder corretamente perguntas de múltipla escolha para acumular prêmios.  
