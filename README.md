@@ -22,13 +22,13 @@ Ao final, se acertar todas as perguntas, o jogador acumula **R$ 1.000.000! 💰*
 
 ## Funcionalidades principais
 
-- ✅ Conexão com API de perguntas e respostas (`https://tryvia.ptr.red`)
-- ✅ Funciona **offline** após baixar as perguntas
-- ✅ Embaralhamento automático das alternativas
-- ✅ Controle de pulos e desistência
-- ✅ Sistema de pontuação e mensagens dinâmicas
-- ✅ Mensagens coloridas e claras no terminal
-- ✅ Tratamento de erros de conexão e repetição de perguntas
+-  Conexão com API de perguntas e respostas (`https://tryvia.ptr.red`)
+-  Funciona **offline** após baixar as perguntas
+-  Embaralhamento automático das alternativas
+-  Controle de pulos e desistência
+-  Sistema de pontuação e mensagens dinâmicas
+-  Mensagens coloridas e claras no terminal
+-  Tratamento de erros de conexão e repetição de perguntas
 
 ---
 
