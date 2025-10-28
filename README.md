@@ -16,7 +16,7 @@ Cada pergunta possui um valor em **R$**, e o jogador pode:
 - **Desistir** (levando metade do prêmio acumulado);
 - **Errar** (levando apenas 10% do prêmio acumulado).
 
-Ao final, se acertar todas as perguntas, o jogador acumula **R$ 1.000.000! 💰**
+Ao final, se acertar todas as perguntas, o jogador acumula **R$ 1.000.000! **
 
 ---
 
