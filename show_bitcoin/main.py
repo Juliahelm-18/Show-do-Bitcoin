@@ -1,0 +1,6 @@
+from game.engine import jogar
+
+if __name__ == "__main__":
+    jogar()
+
+# Inicia o jogo
